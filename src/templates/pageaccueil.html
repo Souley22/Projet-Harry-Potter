@@ -10,34 +10,28 @@
 </head>
 
 <body>
-
-    <nav class="navigation">
-        <p>
-            Harry Booster
-        </p>
-
-        <p class="inscription">
-            <a>
-                S'inscrire
-            </a>
-        </p>
-
-        <p class="connexion">
-            <a>
-                Se connecter
-            </a>
-        </p>
-    </nav>
-
     <main>
-        <h1>
-            Titre
-        </h1>
+
+        <nav>
+            <!--Ici, je fait la partie nav (tête de la page avec le menu et les "boutons" s'inscrire et se connecter que je les met dans des classes.)-->>
+
+            <h2 class="boutonlienmenu"> <!--Initialisation d'une classe d'un bouton lien-->
+                <a class="menu" href="">Menu</a>
+            </h2>
+            <img class ="logo" src="../static/images/Logo  .png">
+            <h2 class="seco">
+                <a class="inscription" href=""> S'inscrire </a> <a class="inscription" href=""> Se connecter </a>
+
+            </h2>
+        </nav>
+
 
         <section>
-            <p>
-                Bienvenue sur Harry Booster, la plateforme magique dédiée aux passionnés de cartes Harry Potter !
-                Explorez, échangez et collectionnez les différentes cartes enchantées de l'univers magique. Plongez dans
+            <p class="titre">
+                Bienvenue sur <span class="ttrharry">Harry Booster</span>, la plateforme magique dédiée aux
+                passionnés de cartes Harry Potter !
+                Explorez, échangez et collectionnez les différentes cartes enchantées de l'univers magique. Plongez
+                dans
                 la magie
                 des échanges et découvrez des trésors uniques pour agrandir votre collection de cartes sorcières et
                 sorciers avec une variété de niveau de carte.
@@ -45,12 +39,14 @@
 
         </section>
 
-        <h2>
-            Voici la liste des cartes SIMPLE disponibles ! (pour le moment)
+
+
+        <h2 class="listecarte">
+            Voici la liste des cartes simples disponibles pour le moment !
         </h2>
 
+        <section>
 
-        <ul>
             <li>Harry Potter </li>
 
             <li>Hermione Granger</li>
@@ -70,24 +66,26 @@
             <li>Luna Lovegood</li>
 
             <li>Drago Malefoy</li>
-        </ul>
+
+        </section>
 
 
 
 
-        <a href="">
-            <p> Voir détail des cartes </p>
+        <a class="liendetailcarte" href="">
+            <p>Voir détail des cartes</p> <!--Lien pour aller sur la page détail des cartes-->>
         </a>
-        </main>
-
-        <footer>
-          <img src="../static/images/106774299.webp" alt="">
-            <source>
-        </footer>
 
 
+    </main>
 
+    <footer>
+        <img src="../static/images/106774299.webp" alt="">
+        <source>
+    </footer>
+    <!--Fin de page + image d'Harry Potter-->>
 
 </body>
 
 </html>
+</section>
