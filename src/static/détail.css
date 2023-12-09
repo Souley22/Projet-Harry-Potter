@@ -7,29 +7,95 @@
 
 body {
     font-family: 'Inter', sans-serif;
-} 
+}
+
 .intro {
-    font-size: 20px; 
-    color: white ;
+    font-size: 17px;
+    color: white;
     background-color: black;
     text-align: center;
     padding: 20px;
- }
+}
 
- .accueil {
+.accueil {
     background-color: black;
     color: grey;
     padding: 10px;
     text-decoration: underline;
- }
+}
+
 /*Mise en place du header*/
 .stitre {
     text-align: center;
-    font-size: 17px;
-    padding-top: 50px;
+    font-size: 22px;
+    padding-top: 150px;
 }
-.dtlcrt {
-    font-size: 17px;
-    padding-top: 25px;
+
+
+.basique {
+    /*La phrase avec ":"*/
+    font-size: 20px;
+    padding-top: 200px;
     margin: 30px;
 }
+
+
+img {
+    width: 19%;
+    margin: 6px;
+    padding: 10px;
+}
+
+/*Mise en forme des images*/
+
+.boost {
+    /*La phrase avec ":"*/
+    font-size: 17px;
+    padding-top: 100px;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.basique,
+.boost {
+    text-align: center;
+    font-weight: 500;
+    color: black;
+}
+
+.carteboost {
+    padding-bottom: 100px;
+}
+
+footer {
+    background-color: black;
+    padding-bottom: 80px;
+    color: white;
+    text-align: center;
+}
+
+.phrasedubas {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.connex {
+    display: flex;
+    gap: 50px;
+    padding-left: 40%;
+    padding-top: 50px;
+}
+
+.sinscrire,
+.seconnecter {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    border: 3px solid seashell;
+    border-radius: 2px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+ 
