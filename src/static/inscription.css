@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D3D3D3;
+    font-family: 'Inter', sans-serif;
+}
+
+.inscription {
+    text-align: center;
+    background-color: skyblue;
+    margin: 25%;
+}

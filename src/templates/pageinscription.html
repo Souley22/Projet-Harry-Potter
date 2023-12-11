@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>inscription</title>
+    <title>Inscription</title>
     <link rel="stylesheet" href="../static/inscription.css">
 </head>
 
 <body>
 
-<main>
-    <h1>
-        C'est parti pour l'inscription !
-    </h1>
-</main>
-    
+    <main>
+        <div class="inscription">
+
+            <h1 class="titre">
+                C'est parti pour l'inscription !
+            </h1>
+            <form action=""> <!--Formulaire html d'inscription-->
+
+                <div class="inscristoi">
+                    <label for="nom">Votre nom</label> <!--légende-->
+                    <input type="text" id="nom" placeholder="Soulémane" required> <!--Champ de saisie-->
+                </div>
+
+                <div class="inscristoi">
+                    <label for="email">Votre adresse email</label>
+                    <input type="text" id="email" placeholder="Ton adresse email" required>
+                </div>
+
+                <div class="inscristoi">
+                    <label for="mot de passe">Votre mot de passe</label>
+                    <input type="password" id="motdepasse" placeholder="Ton mot de passe" required> <!--Obligé-->
+                    <!--id = une class UNIQUE-->
+                </div>
+
+                <div class="inscristoi">
+                    <label for="Pseudo">Votre nom d'utilisateur</label>
+                    <input type="text" id="pseudo" placeholder="Ecris ton pseudo ici">
+                </div>
+
+
+            </form>
+
+        </div>
+    </main>
+
 </body>
+
 </html>
