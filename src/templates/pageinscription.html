@@ -16,42 +16,61 @@
             <h1 class="titre">
                 C'est parti pour l'inscription !
             </h1>
-            <form action=""> <!--Formulaire html d'inscription-->
+            <form action=""> <!-- ** Method = pour envoyer des données à un serveur-->
+
+
+                <!--Formulaire html d'inscription-->
 
                 <div class="inscristoi">
-                    <label for="nom">Votre nom</label> <!--légende-->
-                    <input type="text" id="nom" placeholder="Soulémane" required> <!--Champ de saisie-->
+                    <label for="nom">Ton nom</label>
+                    <!--élément permettant d'indiquer une explication à un champ de saisie/élément de formulaire-->
+                    <input type="text" id="nom" name="nom" placeholder="Soulémane" required> <!--Champ de saisie-->
                 </div>
+                <!-- 'name' est utilisé pour identifier ces éléments lors de la soumission d'un formulaire.-->
+
 
                 <div class="inscristoi">
-                    <label for="email">Votre adresse email</label>
-                    <input type="text" id="email" placeholder="Adresse email" required>
+                    <label for="email">Tape ton adresse email</label>
+                    <input type="text" id="email" name="email" placeholder="Adresse email" required>
                     <!--Placeholder "texte dans la case avant qu'on clique dessus"-->
                 </div>
 
+
                 <div class="inscristoi">
-                    <label for="mot de passe">Ton mot de passe</label>
-                    <input type="password" id="motdepasse" placeholder="Mot de passe" required> <!--Obligé-->
+                    <label for="motdepasse">Ton mot de passe</label>
+                    <input type="password" id="motdepasse" name="motdepasse" placeholder="Mot de passe" required>
+                    <!--Obligé-->
                     <!--id = une class UNIQUE-->
                     <!--Mot de passe-->
                 </div>
 
-                <div class="inscristoi">
-                    <label for="mot de passe">Confirme ton mot de passe</label>
-                    <input type="password" id="motdepasse" placeholder="Mot de passe" required> <!--Obligé-->
-                    <!--id = une class UNIQUE-->
-                    <!--Mot de passe-->
-                </div>
 
                 <div class="inscristoi">
-                    <label for="Pseudo">Votre nom d'utilisateur</label>
-                    <input type="text" id="pseudo" placeholder="Ecris ton pseudo ici">
+                    <label for="Confirmetonmotdepasse">Confirme ton mot de passe</label>
+                    <input type="password" id="Confirmetonmotdepasse" name="Confirmetonmotdepasse"
+                        placeholder="Mot de passe" required> <!--Obligé-->
                 </div>
 
 
-            </form>
+                <!--id = une class UNIQUE-->
+                <!--Mot de passe-->
+
+                <div class="inscristoi">
+                    <label for="Pseudo">Et enfin ton nom d'utilisateur</label>
+                    <input type="text" id="Pseudo" placeholder="Ecris ton pseudo ici">
+                </div>
+
+
+                <button type="submit"> <!--Envoyer les données-->
+                    C'est parti !
+                </button>
 
         </div>
+
+        </form>
+
+
+
     </main>
 
 </body>

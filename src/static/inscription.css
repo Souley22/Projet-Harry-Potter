@@ -15,3 +15,68 @@ body {
     background-color: skyblue;
     margin: 25%;
 }
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+}
+
+.inscription {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: black; 
+}
+
+.titre {
+    text-align: center;
+    color: #333;
+    padding-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inscristoi {
+    margin-bottom: 25px;
+}
+/*Mise en forme de chaque div = de chaque champs de saisies*/
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/*Mise en forme du bouton*/
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
