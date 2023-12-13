@@ -5,3 +5,75 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {
+    background-color: #D3D3D3;
+    font-family: 'Inter', sans-serif;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px
+}
+
+/*mise en page de la box*/
+.connecter {
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 2px darkcyan;
+    /* box shadow : les deux premières valeurs correspondent aux coordonnées de décalage de l'ombre, la 3e  troisième valeur correspond au rayon du flou et la 4e au rayon d'étalement   */
+}
+
+.titre {
+    color: darkcyan;
+    padding-bottom: 10px;
+}
+
+/*Alignement*/
+form {
+    flex-direction: column;
+    padding: 25px;
+}
+
+.champ {
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding: 30px;
+}
+
+/*Champs de saisie*/
+input {
+    padding: 10px;
+    border: solid beige; 
+    border-radius: 5px;
+    width: 100%;  
+}
+
+button {
+    cursor: pointer;
+    background-color: darkcyan;
+    color: white;
+    padding: 8px;
+    border: 3px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: green;
+}

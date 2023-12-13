@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion</title>
     <link rel="stylesheet" href="../static/connexion.css">
 </head>
+
 <body>
-    
+    <main>
+        <div class="connecter">
+            <h1 class="titre">
+                Connecte-toi
+            </h1>
+            <form action="">
+                <div class="champ">
+                    <label for="email">Adresse email</label>
+                    <input type="email" id="email" name="email" placeholder="Entre ton adresse email" required>
+                </div>
+                <div class="champ">
+                    <label for="motdepasse">Mot de passe</label>
+                    <input type="password" id="motdepasse" name="motdepasse" placeholder="Entre ton mot de passe">
+                </div>
+                <button type="submit">
+                    Se connecter
+                </button>
+            </form>
+        </div>
+    </main>
 </body>
+
 </html>

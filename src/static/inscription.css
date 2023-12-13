@@ -18,9 +18,7 @@ body {
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: darkgrey;
-    margin: 0;
-    padding: 0;
+    background-color: darkslategrey;
 }
 
 main {
@@ -33,13 +31,12 @@ main {
 .inscription {
     background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: black; 
+    border-radius: 10px; 
 }
 
 .titre {
     text-align: center;
-    color: #333;
+    color: darkcyan;
     padding-bottom: 50px;
 }
 
@@ -51,7 +48,7 @@ form {
 .inscristoi {
     margin-bottom: 25px;
 }
-/*Mise en forme de chaque div = de chaque champs de saisies*/
+
 label {
     font-weight: bold;
     margin-bottom: 5px;
@@ -68,7 +65,7 @@ input {
 
 /*Mise en forme du bouton*/
 button {
-    background-color: black;
+    background-color: darkcyan;
     color: #fff;
     padding: 10px;
     border: none;
