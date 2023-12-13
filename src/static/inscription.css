@@ -58,6 +58,7 @@ label {
     color: #555;
 }
 
+/*Mise en place des champs de saisie*/
 input {
     padding: 8px;
     border: 1px solid #ccc;
