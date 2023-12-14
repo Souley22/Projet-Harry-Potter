@@ -11,7 +11,7 @@ body {
 
 
 body {
-    background-color: #D3D3D3;
+    background-color: darkslategrey;
     font-family: 'Inter', sans-serif;
 }
 
@@ -29,7 +29,7 @@ main {
     background-color: white;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 2px 1px 2px darkcyan;
+    box-shadow: 2px 1px 2px black;
     /* box shadow : les deux premières valeurs correspondent aux coordonnées de décalage de l'ombre, la 3e  troisième valeur correspond au rayon du flou et la 4e au rayon d'étalement   */
 }
 
