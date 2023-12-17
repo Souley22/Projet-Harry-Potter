@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harry Booster</title>
-    <link rel="stylesheet" href="../static/accueil.css">
+    <link rel="stylesheet" href="../static/home.css">
 
 </head>
 
@@ -15,23 +15,24 @@
         <nav>
             <!--Ici, je fait la partie nav (tête de la page avec le menu et les "boutons" s'inscrire et se connecter que je les met dans des classes.)-->>
 
-            <h2 class="boutonlienmenu"> <!--Initialisation d'une class d'un bouton lien-->
-                <a class="menu" href="">Menu</a>
+            <h2 class="homelink"> <!--Initialisation d'une class d'un bouton lien-->
+                <a class="home" href="">Menu</a>
             </h2>
 
             <img class="logo" src="../static/images/Logo  .png">
 
 
-            <h2 class="seco">
-                <a class="inscription" href="pageinscription.html"> S'inscrire </a> <a class="inscription" href="pagedeconnexion.html"> Se
+            <h2 class="login">
+                <a class="register" href="pageinscription.html"> S'inscrire </a> <a class="register"
+                    href="pagedeconnexion.html"> Se
                     connecter </a>
             </h2>
         </nav>
 
 
         <section>
-            <p class="titre">
-                Bienvenue sur <span class="ttrharry">Harry Booster</span>, la plateforme magique dédiée aux
+            <p class="title">
+                Bienvenue sur <span class="ttlharry">Harry Booster</span>, la plateforme magique dédiée aux
                 passionnés de cartes Harry Potter !
                 Explorez, échangez et collectionnez les différentes cartes enchantées de l'univers magique. Plongez
                 dans
@@ -44,7 +45,7 @@
 
 
 
-        <h2 class="listecarte">
+        <h2 class="cardlist">
             Voici la liste des cartes disponibles !
         </h2>
 
@@ -74,19 +75,13 @@
 
 
 
+        <div class="cdl">
+            <a class="carddetaillink" href="cardpage.html">
+                <h2>Voir détail des cartes</h2> <!--Lien pour aller sur la page détail des cartes-->>
+            </a>
 
-        <a class="liendetailcarte" href="pagededétaildecarte.html">
-            <h2>Voir détail des cartes</h2> <!--Lien pour aller sur la page détail des cartes-->>
-        </a>
-
-
+        </div>
     </main>
-
-    <footer>
-        <img src="../static/images/106774299.webp" alt="Harrycover">
-        <source>
-    </footer>
-    <!--Fin de page + image d'Harry Potter-->>
 
 </body>
 

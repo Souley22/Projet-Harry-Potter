@@ -17,8 +17,7 @@ h2 {
 
 nav {
     background-color: white;
-    padding: 5px;
-    border: solid beige;
+    border: solid 0.5px black;
 }
 
 .logo {
@@ -56,23 +55,17 @@ nav {
 /*Animation détaillé pour pouvoir mettre en mouvement le logo harry potter*/
 
 
-.boutonlienmenu {
-    text-align: left;
+.homelink {
+    margin-right: 1170px;
 
 }
 
-.seco {
-    text-align: right;
-    padding-bottom: 50px;
-
-}
-
-.menu {
+.home {
     /*Lien menu : couleurs, taille ,etc*/
     color: black;
     text-decoration: none;
     background-color: white;
-    padding: 10px;
+    padding: 6px;
     display: inline-block;
     transition: all 0.7s;
     border: 3px solid silver;
@@ -80,18 +73,15 @@ nav {
     padding-right: 10px;
 }
 
-.boutonlienmenu :hover {
-    color: white;
-    text-decoration: none;
-    background-color: black;
-    display: inline-block;
-    transition: all 0.5s;
-    border: 5px solid silver;
-    border-radius: 4px;
-    padding: 10px;
+
+.login {
+    margin: 50px;
+
 }
 
-.inscription {
+
+
+.register {
     /*Lien se connecter : couleurs, taille ,etc*/
     color: black;
     text-decoration: none;
@@ -104,19 +94,19 @@ nav {
 }
 
 
-.titre {
+.title {
     text-align: center;
     font-size: 22px;
     margin-top: 50px;
 }
 
-.ttrharry {
+.ttlharry {
     font-size: 22px;
     color: blueviolet;
 }
 
-.listecarte {
-    margin-top: 65px;
+.cardlist {
+    margin-top: 165px;
     font-size: 28px;
 }
 
@@ -129,25 +119,23 @@ li {
 
 img {
     object-fit: cover;
-    width: 100%;
+    width: 50%;
     object-fit: cover;
-    height: 10%x;
+    height: 5%;
 }
 
-.liendetailcarte {
-    color: white;
-    text-decoration: none;
-    background-color: grey;
-    padding: 4px;
-    display: inline-block;
-    transition: all 0.7s;
-    border: 5px solid silver;
-    border-radius: 1px;
-    margin-left: 1490px;
-  margin-bottom:25px ;
-  cursor: pointer;
+.cdl {
+    padding-top: 100px;
 }
-.liendetailcarte :hover {
+
+.carddetaillink {
+    color: darkviolet;
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+.carddetaillink :hover {
     color: black;
 }
 
@@ -156,20 +144,20 @@ img {
 
 
 @media screen and (max-width: 900px) {
-    
+
     /*Quand la taille de l'écran <=900px = [...]*/
 
     main {
         flex-direction: column;
     }
 
-    .titre,
-    .ttrharry,
-    .listecarte {
+    .title,
+    .ttlharry,
+    .cardlist {
         font-size: 13px;
     }
 
     .logo {
-        width: 60%;
+        width: 80%;
     }
 }

@@ -15,9 +15,10 @@ body {
     background-color: black;
     text-align: center;
     padding: 20px;
+    padding-bottom: 50px;
 }
 
-.accueil {
+.home {
     background-color: black;
     color: grey;
     padding: 10px;
@@ -25,24 +26,25 @@ body {
 }
 
 /*Mise en place du header*/
-.stitre {
+.stitle {
     text-align: center;
     font-size: 22px;
-    padding-top: 70px;
+   
     font-weight: 200;
+    padding: 10%;
 }
 
 
-.basique {
+.basic {
     /*La phrase avec ":"*/
-    font-size: 20px;
-    padding-top: 200px;
+    font-size: 17px;
+    padding-top: 10px;
     margin: 30px;
 }
 
 
 img {
-    width: 19%;
+    width: 18%;
     margin: 6px;
     padding: 10px;
 }
@@ -54,46 +56,46 @@ img {
     font-size: 17px;
     padding-top: 100px;
     margin: 30px;
-    font-size: 20px;
+    
 }
 
-.basique,
+.basic,
 .boost {
     text-align: center;
     font-weight: 500;
     color: black;
+    text-decoration: underline;
 
 }
 
-.carteboost {
+.boostcard {
     padding-bottom: 100px;
 }
 
 footer {
     background-color: black;
-    padding-bottom: 80px;
+    padding-bottom: 5px;
     color: white;
     text-align: center;
 }
 
-.phrasedubas {
+.sentence {
     padding: 20px;
     font-size: 20px;
     padding-top: 35px;
 }
 
-.connex {
+.connection {
     display: flex;
     gap: 50px;
-    padding-left: 40%;
+    padding-left: 39%;
     padding-top: 50px;
 }
 
 /*liens*/
-.sinscrire,
-.seconnecter {
+.login,
+.register {
     color: black;
-    text-decoration: none;
     cursor: pointer;
     background-color: white;
     padding: 10px;
@@ -102,7 +104,6 @@ footer {
     border-radius: 2px;
     padding-right: 10px;
     font-size: 18px;
-    
 }
 
 
@@ -111,17 +112,25 @@ footer {
     body {
         flex-direction: column;
     }
-.intro, .stitre {
-    font-size: 15px;
-}
-img {
-    object-fit: cover;
-    width: 50%;
-}
-.connex {
-  flex-direction: column;
-  padding: 10%;
-}
-  
 
+    .intro,
+    .stitle {
+        font-size: 15px;
+    }
+
+    img {
+        object-fit: cover;
+        width: 50%;
+    }
+
+    .connection {
+        flex-direction: column;
+        padding: 10%;
+    }
+    .sentence{
+        font-size: 15px;
+    }
+    .login,.register {
+        font-size: 15px;
+    }
 }
