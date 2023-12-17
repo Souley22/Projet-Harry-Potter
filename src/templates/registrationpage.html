@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription</title>
-    <link rel="stylesheet" href="../static/inscription.css">
+    <link rel="stylesheet" href="../static/registrationpage.css">
 </head>
 
 <body>
 
     <main>
-        <div class="inscription">
+        <div class="sign">
 
-            <h1 class="titre">
+            <h1 class="title">
                 C'est parti pour l'inscription !
             </h1>
             <form action=""> <!-- ** Method = pour envoyer des données à un serveur-->
@@ -21,47 +21,40 @@
 
                 <!--Formulaire html d'inscription-->
 
-                <div class="inscristoi">
+                <div class="register">
                     <label for="nom">Ton nom</label>
-                    <!--élément permettant d'indiquer une explication à un champ de saisie/élément de formulaire-->
                     <input type="text" id="nom" name="nom" placeholder="Soulémane" required> <!--Champ de saisie-->
                 </div>
-                <!-- 'name' est utilisé pour identifier ces éléments lors de la soumission d'un formulaire.-->
 
 
-                <div class="inscristoi">
+                <div class="register">
                     <label for="email">Ton adresse email</label>
                     <input type="text" id="email" name="email" placeholder="Adresse email" required>
-                    <!--Placeholder "texte dans la case avant qu'on clique dessus"-->
                 </div>
 
 
-                <div class="inscristoi">
+                <div class="register">
                     <label for="motdepasse">Ton mot de passe</label>
                     <input type="password" id="motdepasse" name="motdepasse" placeholder="Mot de passe" required>
-                    <!--Obligé-->
-                    <!--id = une class UNIQUE-->
-                    <!--Mot de passe-->
+                  
                 </div>
 
 
-                <div class="inscristoi">
+                <div class="register">
                     <label for="Confirmetonmotdepasse">Confirme ton mot de passe</label>
                     <input type="password" id="Confirmetonmotdepasse" name="Confirmetonmotdepasse"
                         placeholder="Mot de passe" required> <!--Obligé-->
                 </div>
 
 
-                <!--id = une class UNIQUE-->
-                <!--Mot de passe-->
 
-                <div class="inscristoi">
+                <div class="register">
                     <label for="Pseudo">Et enfin ton nom d'utilisateur</label>
                     <input type="text" id="Pseudo" placeholder="Ecris ton pseudo ici">
                 </div>
 
 
-                <button type="submit"> <!--Envoyer les données-->
+                <button type="submit"> 
                     C'est parti !
                 </button>
 

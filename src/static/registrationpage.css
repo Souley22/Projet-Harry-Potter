@@ -6,17 +6,6 @@
 }
 
 body {
-    background-color: #D3D3D3;
-    font-family: 'Inter', sans-serif;
-}
-
-.inscription {
-    text-align: center;
-    background-color: skyblue;
-    margin: 25%;
-}
-
-body {
     font-family: 'Inter', sans-serif;
     background-color: darkslategrey;
 }
@@ -28,15 +17,13 @@ main {
     height: 1000px;
 }
 
-.inscription {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px; 
+.sign { 
+    text-align: center;
 }
 
-.titre {
+.title {
     text-align: center;
-    color: darkcyan;
+    color: white;
     padding-bottom: 50px;
 }
 
@@ -45,36 +32,35 @@ form {
     flex-direction: column;
 }
 
-.inscristoi {
+.register {
     margin-bottom: 25px;
 }
 
 label {
     font-weight: bold;
     margin-bottom: 5px;
-    color: #555;
+    color: white;
 }
 
 /*Mise en place des champs de saisie*/
 input {
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid grey;
     border-radius: 5px;
-    width: 100%;
+    width: 90%;
 }
 
 /*Mise en forme du bouton*/
 button {
     background-color: darkcyan;
-    color: #fff;
+    color: white;
     padding: 10px;
-    border: none;
     border-radius: 5px;
     cursor: pointer; 
     font-size: 16px;
-    transition: background-color 0.3s;
+    transition: 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: green;
 }
