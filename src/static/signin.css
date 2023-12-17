@@ -7,34 +7,24 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    background-color: white;
 }
-
-
-body {
-    background-color: darkslategrey;
-    font-family: 'Inter', sans-serif;
-}
-
 
 main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 800px
+    height: 700px
 }
 
-/*mise en page de la box*/
-.connecter {
+/*mise en forme de la box*/
+.signin {
     text-align: center;
-    background-color: white;
     padding: 25px;
-    border-radius: 10px;
-    box-shadow: 2px 1px 2px black;
-    /* box shadow : les deux premières valeurs correspondent aux coordonnées de décalage de l'ombre, la 3e  troisième valeur correspond au rayon du flou et la 4e au rayon d'étalement   */
 }
 
-.titre {
-    color: darkcyan;
+.title {
+    color: black;
     padding-bottom: 10px;
 }
 
@@ -44,7 +34,7 @@ form {
     padding: 25px;
 }
 
-.champ {
+.pass {
     margin-bottom: 25px;
 }
 
@@ -53,25 +43,27 @@ label {
     margin-bottom: 5px;
     font-size: 16px;
     padding: 30px;
+    color: black;
 }
 
 /*Champs de saisie*/
 input {
     padding: 10px;
-    border: solid beige; 
+    border: solid 1px gray; 
     border-radius: 5px;
-    width: 100%;  
+    width: 90%;  
 }
 
 button {
     cursor: pointer;
     background-color: darkcyan;
     color: white;
-    padding: 8px;
+    padding:10px;
     border: 3px;
     border-radius: 5px;
     font-size: 16px;
-    transition: 0.5s;
+    transition: 0.3s;
+    box-shadow: black 2px 1px 3px;
 }
 
 button:hover {
