@@ -52,13 +52,14 @@ input {
 
 /*Mise en forme du bouton*/
 button {
-    background-color: darkcyan;
+    background-color:darkcyan;
     color: white;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer; 
     font-size: 16px;
     transition: 0.3s;
+    border: solid whitesmoke 1px;
 }
 
 button:hover {
